@@ -1,0 +1,17 @@
+{
+  "name": "privatka_shit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tvalue_checker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moralis": "^2.22.3",
+    "web3": "^4.0.2"
+  }
+}
