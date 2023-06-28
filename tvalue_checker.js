@@ -41,7 +41,7 @@ async function getAllMini(userAddress) {
 
 async function main() {
     
-    await Moralis.start({apiKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJub25jZSI6Ijg4ODBkNGY3LTMwNWQtNDZlYi05MjEzLWY4YjlkODRlMWI0MCIsIm9yZ0lkIjoiMzQ1NjU3IiwidXNlcklkIjoiMzU1MzIwIiwidHlwZUlkIjoiMzQwM2RjZTYtZjY5NS00OGExLWFlNzEtNDY2YzE5ZmI4YWI1IiwidHlwZSI6IlBST0pFQ1QiLCJpYXQiOjE2ODc5MTAzMjgsImV4cCI6NDg0MzY3MDMyOH0.AC9hkbrlm3uaLzsc6H6_vhva2gws4JUgXzWL63EWPQY"});
+    await Moralis.start({apiKey: "СЮДА АПИ"});
     const wallets = await read('wallets.txt')
     
     for(let wallet of wallets) {
